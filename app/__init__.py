@@ -1,5 +1,4 @@
-from flask_restful import Resource, Api, reqparse
-from flask import Flask, request
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 app = Flask("AuthenticationAPI")
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
